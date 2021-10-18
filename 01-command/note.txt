@@ -1,0 +1,59 @@
+# https://excalidraw.com/
+
+
+os 
+    windows   -> windows7 windows8 windows10  windows_xp
+    linux 
+    unix 
+
+
+linux/unix --> 
+linux --> ubuntu, mint, kali,
+
+main.cpp            --> uzantı cpp
+tekin.polat.txt     --> uzantı txt
+
+
+ls (list)
+ls       --> bulunduğunda klasörde var olan dosyaları ve klasörleri gösterir
+ls -l    --> bulunduğunda klasörde var olan dosyaları ve klasörleri ayrıntılı gösterir
+ls -al   --> bulunduğunda klasörde var olan dosyaları ve klasörleri ayrıntılı gösterir
+            a --> her şeyi göster  a => all
+
+reset   --> terminal temizler
+clear 
+
+
+pwd    --> Print Working Directory
+
+history --> 
+
+#dir --> directory (klasör)
+#    --> file      (dosya)
+
+mkdir --> klasor oluşma   => make directory
+mkdir folder_name
+mkdir folder_name1 folder_name2
+
+
+touch --> dosya oluşturma  
+touch file_name
+touch file_name1 file_name2 file_name3
+
+rmdir --> klasör silme  => remove directory
+rmdir  file_name
+rmdir  file_name1 file_name2
+
+unlink veya rm  --> file silme
+
+man   --> manuel
+info  
+
+cd   --> change directory
+cat file_name  (concatenate)
+cat file_name_1 file_name_2
+
+.. --> bir üst klasörde 
+.  --> olduğun klasör
+
+exit --> terminal çık
