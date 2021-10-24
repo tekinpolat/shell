@@ -1,4 +1,38 @@
 ## shell programming
+
+## 02-command 
+`whatis <command_man>` whatis mkdir, whatis touch
+
+`man <command_man>` man mv, man cp, man mkdir
+
+`touch -> timestamp output change`   touch test.txt
+
+`cp --> copy`
+
+`cp from to` cp test_01.txt test_02.txt
+
+`mv --> move`
+
+`mv from to` mv test_01.txt test_02.txt 
+
+`rm file_name`
+
+`rm -r directory`
+
+`echo "test"`
+
+- \\     backslash
+- \a     alert (BEL)
+- \b     backspace
+- \c     produce no further output
+- \e     escape
+- \f     form feed
+- \n     new line
+- \r     carriage return
+- \t     horizontal tab
+- \v     vertical tab 
+
+
 ## 01-command  recap
     - ls 
     - ls -l
