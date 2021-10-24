@@ -8,7 +8,7 @@ n
 cout << "Hello World!" << endl;
 cout << "Hello World!" << "\n";
 
-\\     backslash
+\\    backslash
 \a     alert (BEL)
 \b     backspace
 \c     produce no further output

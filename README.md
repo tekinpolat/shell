@@ -21,7 +21,7 @@
 
 `echo "test"`
 
-- \\     backslash
+- \\\     backslash
 - \a     alert (BEL)
 - \b     backspace
 - \c     produce no further output
