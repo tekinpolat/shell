@@ -1,5 +1,77 @@
 ## shell programming
 
+
+## 03-command 
+```
+man <command_line>  man wc, man ls, man more, man less, man man 
+```
+
+- \>    direction   (siler yeni veriyi koyar)
+
+- \>>   direction   (üzerine ekle)
+
+Redirections
+
+```
+regular expression   (regex)
+
+Wildcard characters  (*,+, [])
+
+* --> her şey demek   (zero or more)
+```
+
+```
+ls -l ~/Desktop/[ab]*
+ls -l ~/Desktop/[sb]*
+       stek  ok
+       bpol  ok
+       atek  hata
+```
+
+``` 
+ls -l ~/Desktop/*[ac]
+ls -l ~/Desktop/*[acb]
+    tekinc ok 
+    tekind hata
+    tekina ok
+```
+
+```
+ls -l  /bin/*[ab]*[xy]   
+       /bin/jsjamcjx    ok
+       /bin/bkjky   
+ls -l /bin/*[a-d]*
+ls -l /bin/*[a-f]*
+```
+
+```
+wc [OPTION]... [FILE]...
+wc -c yigit.txt
+```
+
+```
+|  pipe    (Alt GR + -)
+ls -l | wc
+```
+
+```
+cat 
+tac
+rev  --> reverse
+```
+
+*nix  -> unix veya linux
+
+more less 
+
+```
+os 
+ - windows
+ - unix 
+ - linux 
+ - macos
+```
+
 ## 02-command 
 `whatis <command_man>` whatis mkdir, whatis touch
 
