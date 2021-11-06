@@ -1,6 +1,50 @@
 ## shell programming
 
 
+## 04-command
+``` 
+wc (word count)
+```
+
+``` 
+chmod FILE <-- set/change permissions to the FILE
+```
+
+``` 
+##   o       g       a
+##  owner   group   all(other)
+-   rw-     rw-     r--         1 tekinpolat tekinpolat  23 Kas  6 19:29 file1.txt
+
+```
+
+
+``` 
+command1 ; command2   --> 1.command çalışırtır sonra 2.command çalıştır
+command1 && command2  --> 1.command çalışır ve 2.command çalıştır
+command1 || command2  --> 1.command çalışır çalışmazsa 2.command çalıştır
+```
+
+``` 
+r --> read
+w --> write
+x --> execute 
+
+- file
+d directory
+l link 
+
+```
+
+
+``` 
+cp from to
+cp abc.txt def.txt
+
+cat file.txt 
+echo "tekin polat" 
+~ --> tilda 
+```
+
 ## 03-command 
 ```
 man <command_line>  man wc, man ls, man more, man less, man man 
