@@ -1,6 +1,18 @@
 ## shell programming
 
 
+
+## 05-command
+
+```
+- who 
+- whoami
+- head 
+- tail
+- man tail, man head
+```
+
+
 ## 04-command
 ![Permissions!](./04-command/permision-2021-11-06-1938.png "Permissions")
 ``` 
