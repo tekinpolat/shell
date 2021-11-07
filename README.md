@@ -2,6 +2,7 @@
 
 
 ## 04-command
+![Permissions!](./04-command/permision-2021-11-06-1938.png "Permissions")
 ``` 
 wc (word count)
 ```
@@ -11,9 +12,9 @@ chmod FILE <-- set/change permissions to the FILE
 ```
 
 ``` 
-##   o       g       a
-##  owner   group   all(other)
--   rw-     rw-     r--         1 tekinpolat tekinpolat  23 Kas  6 19:29 file1.txt
+##   u               g                 o                 user name      group name                  hours      file name      
+##  owner(user)     group            all(other)
+-   rw-              rw-               r--         1    tekinpolat      tekinpolat       23 Kas  6  19:29      file1.txt
 
 ```
 
